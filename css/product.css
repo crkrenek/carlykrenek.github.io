@@ -104,7 +104,6 @@ img{
 /* Mortar & Pestle Project */
 
 .tech-persona{
-  background-color: #;
   border-radius: 15px;
 }
 
@@ -208,7 +207,8 @@ img{
   opacity:1;
 }
 
-/* Fur Friends Style Guide Slider */
+/* Fur Friends Style Guide Style  */
+
 
 
 /*
@@ -220,6 +220,10 @@ img{
 }
 
 @media (min-width: 568px) {
+  .audience_img{
+    width: 500px;
+    height: auto;
+  }
 }
 
 @media (min-width: 768px) {
@@ -228,6 +232,12 @@ img{
   }
   #p-projects{
     font-size: 1.4rem;
+  }
+
+  .audience_img{
+    width: 700px;
+    height: auto;
+    padding: 20px 0;
   }
 }
 
@@ -239,5 +249,10 @@ img{
   }
   #p-projects{
     font-size: 1.6rem;
+  }
+
+  .audience_img{
+    width: 600px;
+    height: auto;
   }
 }
