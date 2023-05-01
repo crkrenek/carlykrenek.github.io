@@ -214,9 +214,8 @@ h3.display-6{
 
 .home_thumbnail{
   object-fit: cover;
-  width: 100%;
-  height: auto;
-  border-radius: 21px 21px 0 0;
+
+  border-radius: 10px 10px 0 0;
 }
 
 
