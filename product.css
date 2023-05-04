@@ -67,6 +67,10 @@ h3.display-6{
   font-size: 1.2rem;
 }
 
+.persona-container{
+  padding:0;
+}
+
 
 /*
  * Custom translucent site header
@@ -230,12 +234,29 @@ h3.display-6{
   .audience_img{
     height: auto;
   }
+
+  .team-boxed{
+    padding: 30px 30px 0 30px;
+  }
+
+  .team-boxed .item .box{
+    padding: 15px;
+  }
+
+  .paragraph-small{
+    padding: 0 20px;
+  }
+
 }
 
 @media (min-width: 568px) {
   .audience_img{
     width: 500px;
     height: auto;
+  }
+
+  .team-boxed{
+    padding: 20px 20px 0 20px;
   }
 }
 
