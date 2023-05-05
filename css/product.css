@@ -11,11 +11,11 @@ h4.fw-semibold{
 }
 
 .bg-2{
-  background-color: #f8f9fa;
+  background-color: #F8F9FA;
 }
 
 p.lead{
-  font-weight: 100!important;
+  font-weight: 300!important;
 }
 
 h3.display-6{
@@ -67,7 +67,28 @@ h3.display-6{
   font-size: 1.2rem;
 }
 
-img{
+.persona-container{
+  padding:0;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #212529; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 50%; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #4c4f52; /* Add a dark-grey background on hover */
 }
 
 /*
@@ -108,8 +129,8 @@ img{
 }
 
 .team-boxed {
-  color:#313437;
-  background-color:#eef4f7;
+  color: #212529;
+  background-color:#F8F9FA;
 }
 
 .team-boxed .box{
@@ -117,7 +138,7 @@ img{
 }
 
 .team-boxed p {
-  color:#7d8285;
+  color:#212529;
 }
 
 .team-boxed h2 {
@@ -209,6 +230,15 @@ img{
 
 /* Fur Friends Style Guide Style  */
 
+.concept_section{
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.home_thumbnail{
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
 
 
 /*
@@ -219,10 +249,33 @@ img{
   flex: 1;
 }
 
+@media (min-width: 320px) {
+  .audience_img{
+    height: auto;
+  }
+
+  .team-boxed{
+    padding: 30px 30px 0 30px;
+  }
+
+  .team-boxed .item .box{
+    padding: 15px;
+  }
+
+  .paragraph-small{
+    padding: 0 20px;
+  }
+
+}
+
 @media (min-width: 568px) {
   .audience_img{
     width: 500px;
     height: auto;
+  }
+
+  .team-boxed{
+    padding: 20px 20px 0 20px;
   }
 }
 
@@ -252,7 +305,7 @@ img{
   }
 
   .audience_img{
-    width: 600px;
+    width: 800px;
     height: auto;
   }
 }
